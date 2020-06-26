@@ -40,8 +40,8 @@ if ($type === 'cars') {
 }
 
 if (isset($pwd)) {
-    // Hash correspond to my student ID
-    if (hash('sha512', $pwd) === 'ab666ca69330d9312956bd64d0595c810f33436dabb451284160bd2c8044121504d682de85256ac00236d25f78311b3fb6ecbb5d5f7673e8ffa301d591552319') {
+    // Hash correspond to 'cars_protect'
+    if (hash('sha512', $pwd) === 'cf1f3f2a28074b650383843498cc06db0ef4e5854179f42907cec3755bec5a1f0fb159bf437cb155c0b47d2499d9910ee2d4e91f5749be0d911a1f366287416f') {
         echo '<p>Suppression de l\'élément <b>' . $id . '</b> dans la table <b>' . $type . '</b>.</p>';
         // Simply delete the ID
         deleteDb($type, $columnId, $id);
