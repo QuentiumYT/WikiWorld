@@ -154,5 +154,6 @@ $RECYCLE.BIN/
 .code
 .vscode
 
-img/
+cars/
+constructors*/
 config.php
