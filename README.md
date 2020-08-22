@@ -1,6 +1,6 @@
 <h1 align="center">WikiWorld Project 🚗</h1>
 
-[![Website](https://quentium.fr/+img/github/website_wikiworld.svg)](https://wikiworld.xyz/)&nbsp;
+[![Website](https://quentium.fr/+img/github/website_wikiworld.svg)](https://wikiworld.xyz)&nbsp;
 [![Donate](https://quentium.fr/+img/github/donate.svg)](https://www.paypal.me/QuentiumYT/1)&nbsp;
 [![Tested on Python 3.6](https://quentium.fr/+img/github/python36.svg)](https://www.python.org/downloads)&nbsp;
 ![Tested on Browsers](https://quentium.fr/+img/github/browsers.svg)&nbsp;
@@ -20,38 +20,40 @@ This project is an interactive wiki for the game Need For Speed: World
 
 ## 📥 Installation
 
-- Download the source code [here](https://github.com/QuentiumYT/WikiWorld/archive/master.zip)
-- Download all the assets (pictures) on [my drive](https://drive.google.com/drive/folders/1VHyyi-wa1EeIMbQq8CDt_UO1_-5m8BLe?usp=sharing) and place them alongside the index.php (should be `img/` folder) or use the python script to fetch them
+-   Download the source code [here](https://github.com/QuentiumYT/WikiWorld/archive/master.zip)
+-   Download all the assets (pictures) on [my drive](https://drive.google.com/drive/folders/1VHyyi-wa1EeIMbQq8CDt_UO1_-5m8BLe?usp=sharing) and place them alongside the index.php (should be `img/` folder) or use the python script to fetch them
 
-### ⚠️ Delete `+not_root` if you will run the project local, else keep only files inside `+not_root` and modify the path to the server folder in `index.php`
+### ⚠️ DELETE `+not_root` if you will run the project local, else KEEP ONLY the files inside `+not_root` and modify the path to the server folder in `index.php`
 
 #### Requirements
 
-- PHP >= 5.4
-- Python >= 3.4
+-   PHP >= 5.4
+-   Python >= 3.6
 
 ## 🚀 Usage
 
 Open a command prompt inside the folder:
 
-- Run the PHP server
+-   Run the PHP server
 
 ```sh
 $ php -S 127.0.0.1:80
 $ php -S 0.0.0.0:80 # if network server
 ```
-*Open [http://localhost/](http://localhost/) to see the website!*
 
-- Run the Python script for the database (or import db/info2_cars.sql)
+_Open [http://localhost/](http://localhost) to see the website!_
+
+-   Run the Python script for the database (or import db/info2_cars.sql)
 
 ```sh
 $ python db/fetch_cars.py
 ```
-*Edit the script if the database name should be changed*
+
+_Edit the script if the database name should be changed_
 
 ## 🤝 Contributing
 
-You can contribute by adding some data from any NFSW server using the [website](https://wikiworld.xyz/).
+You can contribute by adding some data from any NFSW server using the [website](https://wikiworld.xyz).
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or create a new branch.\
 Please make sure to test your suggestions before commiting.
@@ -60,19 +62,20 @@ Please make sure to test your suggestions before commiting.
 
 **Quentin L.**
 
-- Website: [quentium.fr](https://quentium.fr)
-- Github: [QuentiumYT](https://github.com/QuentiumYT)
-- Twitter: [@QuentiumYT](https://twitter.com/QuentiumYT)
-- Youtube: [QuentiumYT](https://www.youtube.com/QuentiumYT)
-- Twitch: [QuentiumYT](https://www.twitch.tv/QuentiumYT)
-- Steam: [QuentiumYT](https://steamcommunity.com/id/QuentiumYT)
-- Reddit: [QuentiumYT](https://www.reddit.com/user/QuentiumYT)
-- PayPal: [QuentinYT](https://www.paypal.me/QuentiumYT/1)
-- Contact: [Mail](mailto:support@quentium.fr?subject=[Apps]%20Contact%20for%20...)
+-   Website: [quentium.fr](https://quentium.fr)
+-   Github: [QuentiumYT](https://github.com/QuentiumYT)
+-   Twitter: [@QuentiumYT](https://twitter.com/QuentiumYT)
+-   Youtube: [QuentiumYT](https://www.youtube.com/QuentiumYT)
+-   Twitch: [QuentiumYT](https://www.twitch.tv/QuentiumYT)
+-   Steam: [QuentiumYT](https://steamcommunity.com/id/QuentiumYT)
+-   Reddit: [QuentiumYT](https://www.reddit.com/user/QuentiumYT)
+-   PayPal: [QuentinYT](https://www.paypal.me/QuentiumYT/1)
+-   Contact: [Mail](mailto:support@quentium.fr?subject=[Apps]%20Contact%20for%20...)
 
 Please ✰ this repository if this project helped you!
 
 ## 📖 License
+
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ---
