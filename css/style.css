@@ -167,6 +167,7 @@ footer {
     position: absolute;
     width: calc(100vw - 230px);
     text-align: center;
+    padding: 10px 0;
 }
 
 /* Page home */
@@ -455,6 +456,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .favorites-list form {
     text-align: center;
+    margin-bottom: 14px;
 }
 
 .favorites-list label {
@@ -524,6 +526,10 @@ input[type=range]:focus::-ms-fill-upper {
     border: 1px solid white;
 }
 
+#starsCount {
+    margin: 0 4px;
+}
+
 .t-item.clic {
     background-color: #333333;
     transition: all .5s ease;
@@ -536,6 +542,8 @@ input[type=range]:focus::-ms-fill-upper {
 .t-item img {
     display: block;
     margin: auto;
+    width: 100%;
+    width: -webkit-fill-available;
 }
 
 .t-item img.money {
@@ -599,6 +607,18 @@ img.star {
     width: 20px;
 }
 
+@media only screen and (max-width: 1680px) {
+    .about {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .table {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     h2 {
         font-size: 32px;
@@ -636,10 +656,6 @@ img.star {
 
     .content {
         width: 100%;
-    }
-
-    .about {
-        flex-direction: column;
     }
 
     .about img {

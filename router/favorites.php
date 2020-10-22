@@ -82,8 +82,8 @@ foreach ($favorites as $fav) {
     echo '<div class="table-content" style="width: 150%">';
     echo '<a href="/player/' . $fav['user_id'] . '" class="t-item clic" style="width: 100%; height: 33.333333%">Joueur :<br>' . $fav['user_name'] . '</a>';
     echo '<a href="/car/' . $carDetails['car_id'] . '" class="t-item clic" style="width: 100%; height: 33.333333%">Voiture notée :<br>' . str_replace('+', ' ', $carDetails['car_name']) . '</a>';
-    echo '<p class="t-item" style="width: 84%; height: 33.333333%">Id :<br>' . $fav['user_id'] . '</p>';
-    echo '<div class="t-item clic col" style="width: 16%; height: 33.333333%">';
+    echo '<p class="t-item" style="width: 60%; height: 33.333333%">Id :<br>' . $fav['user_id'] . '</p>';
+    echo '<div class="t-item clic col" style="width: 40%; height: 33.333333%">';
     echo '<a href="/edit/favorite/' . $fav['user_id'] . '/' . $carDetails['car_id'] . '"><i class="fal fa-edit"></i></a>';
     echo '<a href="/delete/favorite/' . $fav['user_id'] . '/' . $carDetails['car_id'] . '"><i class="fal fa-trash-alt"></i></a>';
     echo '</div>';

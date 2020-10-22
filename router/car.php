@@ -52,8 +52,8 @@ echo '<div class="table">';
 echo '<div class="table-content">';
 echo '<a href="/car/' . $carDetails['car_id'] . '" class="t-item clic" style="width: 50%">Voiture : ' . $carDetails['car_name'] . '</a>';
 echo '<a href="/constructor/' . $carDetails['car_brand_id'] . '" class="t-item clic" style="width: 30%">Constructeur : ' . $carConstructor['brand_name'] . '</a>';
-echo '<p class="t-item" style="width: 16%">Id : ' . $carDetails['car_id'] . '</p>';
-echo '<div class="t-item clic col" style="width: 4%">';
+echo '<p class="t-item" style="width: 13%">Id : ' . $carDetails['car_id'] . '</p>';
+echo '<div class="t-item clic col" style="width: 7%">';
 echo '<a href="/edit/car/' . $carId . '"><i class="fal fa-edit"></i></a>';
 echo '<a href="/delete/car/' . $carId . '"><i class="fal fa-trash-alt"></i></a>';
 echo '</div>';
@@ -84,8 +84,8 @@ if (isset($_COOKIE['player_id'])) {
     echo '<form method="POST">';
     echo '<label class="t-item" style="width: 40%" for="stars">Séléctionnez le nombre d\'étoiles pour ajouter cette voiture aux favoris :</label>';
     echo '<input type="range" name="stars" min="1" max="5" value="5" style="width: 14%" onchange="refresh(this.value)">';
-    echo '<p class="t-item" style="width: 10%">Étoiles :&nbsp;<span id="starsCount">5</span><img class="star" src="/img/star.png"></p>';
-    echo '<input class="t-item clic" style="width: 6%" type="submit" value="Valider">';
+    echo '<p class="t-item">Étoiles :&nbsp;<span id="starsCount">5</span><img class="star" src="/img/star.png"></p>';
+    echo '<input class="t-item clic" type="submit" value="Valider">';
     echo '</form>';
     if (isset($_GET['code'])) {
         $code = $_GET['code'];
@@ -119,7 +119,7 @@ foreach ($carEditions as $edition) {
     echo '<div class="table">';
     echo '<div class="table-image">';
     $pic_scr = str_replace(' ', '_', $carDetails['car_name']) . '/' . $edition['style_pic'];
-    echo '<p class="t-item"><img src="/include/resize.php?s=500&f=/img/cars/' . $pic_scr . '"></p>';
+    echo '<p class="t-item" style="height: 100%"><img src="/include/resize.php?s=500&f=/img/cars/' . $pic_scr . '"></p>';
     echo '</div>';
     echo '<div class="table-content">';
     echo '<p class="t-item" style="width: 50%">Édition : ' . $edition['style_name'] . '</p>';
