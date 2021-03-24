@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{SERVER_PORT} 80
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+Options +Indexes
+
+Header Set Access-Control-Allow-Origin "*"
+Header Set Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header Set Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+Header Set Access-Control-Allow-Credentials "true"
+Header Edit Set-Cookie ^(.*)$ $1;HttpOnly;Secure
+Header Always Set X-XSS-Protection "1; mode=block"
+Header Always Set X-Content-Type-Options "nosniff"
