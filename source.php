@@ -17,7 +17,7 @@
 <body>
     <?php
     // Get lines from Python file
-    $file = file_get_contents('db/get_cars.py', true);
+    $file = file_get_contents('db/fetch_cars.py', true);
     echo '<pre class="line-numbers"><code class="language-py">';
     // Echo file in pre code class format
     echo $file;
