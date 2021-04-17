@@ -8,7 +8,7 @@
     <title>Need For Speed - WikiWorld</title>
     <link rel="icon" type="image/png" href="/img/logo.png">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://quentium.fr/+FA/pro.min.css">
+    <link rel="stylesheet" href="https://assets.quentium.fr/FA/pro.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
 </head>
 
