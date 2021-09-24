@@ -16,5 +16,5 @@
             <i>La cover mets en avant une Lamborghini Gallardo et une Nissan 370Z suivies par des voitures de police.</i></p>
         <img src="/img/nfs_world.jpg" alt="Cover NFSW">
     </div>
-    <i>Le code source Python se trouve ici : <a href="https://wikiworld.xyz/source.php">wikiworld.xyz/source.php</a></i>
+    <i>Le code source Python se trouve ici : <a href="/source.php">wikiworld.fr/source.php</a></i>
 </div>

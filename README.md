@@ -1,6 +1,6 @@
 <h1 align="center">WikiWorld Project 🚗</h1>
 
-[![Website](https://quentium.fr/+img/github/website_wikiworld.svg)](https://wikiworld.xyz)&nbsp;
+[![Website](https://quentium.fr/+img/github/website_wikiworld.svg)](https://wikiworld.fr)&nbsp;
 [![Donate](https://quentium.fr/+img/github/donate.svg)](https://www.paypal.me/QuentiumYT/1)&nbsp;
 [![Tested on Python 3.6](https://quentium.fr/+img/github/python36.svg)](https://www.python.org/downloads)&nbsp;
 ![Tested on Browsers](https://quentium.fr/+img/github/browsers.svg)&nbsp;
@@ -53,7 +53,7 @@ _Edit the script if the database name should be changed_
 
 ## 🤝 Contributing
 
-You can contribute by adding some data from any NFSW server using the [website](https://wikiworld.xyz).
+You can contribute by adding some data from any NFSW server using the [website](https://wikiworld.fr).
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or create a new branch.\
 Please make sure to test your suggestions before commiting.
