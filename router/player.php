@@ -20,6 +20,10 @@ $theadContent = [
     'car_date_end' => '<th><a href="?sort=car_date_end&dir=ASC">Fin de production : %s</a></th>'
 ];
 
+// Default order
+$sort = "ORDER BY stars DESC";
+$theadContent['stars'] = '<th><a href="?sort=stars&dir=ASC">Étoiles : ▼</a></th>';
+
 // Display sorted column and direction
 if (isset($_GET['sort']) && isset($_GET['dir'])) {
     foreach ($theadContent as $key => $value) {
@@ -33,10 +37,6 @@ if (isset($_GET['sort']) && isset($_GET['dir'])) {
             }
         }
     }
-} else {
-    // Default order
-    $sort = "ORDER BY stars DESC";
-    $theadContent['stars'] = '<th><a href="?sort=stars&dir=ASC">Étoiles : ▼</a></th>';
 }
 // Replace temp string variable
 foreach ($theadContent as $key => $value) {

@@ -10,6 +10,10 @@ if (!$playerDetails) {
     exit();
 }
 
+// Default order
+$sort = "ORDER BY stars DESC";
+$theadContent['stars'] = '<th><a href="?sort=stars&dir=ASC">Étoiles : ▼</a></th>';
+
 // List of thead content
 $theadContent = [
     'stars' => '<th><a href="?sort=stars&dir=ASC">Étoiles : %s</a></th>',
@@ -33,10 +37,6 @@ if (isset($_GET['sort']) && isset($_GET['dir'])) {
             }
         }
     }
-} else {
-    // Default order
-    $sort = "ORDER BY stars DESC";
-    $theadContent['stars'] = '<th><a href="?sort=stars&dir=ASC">Étoiles : ▼</a></th>';
 }
 // Replace temp string variable
 foreach ($theadContent as $key => $value) {
