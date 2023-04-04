@@ -12,9 +12,9 @@ header('Content-type: image/jpeg');
 
 // Get height and width of current picture
 list($width, $height) = getimagesize($filename);
-// Math to know proportionnal size
-$newWidth = $size;
-$newHeight = $newWidth * $height / $width;
+// Math to know proportional size
+$newWidth = intval($size);
+$newHeight = intval($newWidth * $height / $width);
 
 // Create a blank picture
 $newImage = imagecreatetruecolor($newWidth, $newHeight);
