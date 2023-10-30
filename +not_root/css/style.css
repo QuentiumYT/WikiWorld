@@ -1,27 +1,48 @@
 @font-face {
-    font-family: "Register";
-    src: url("../fonts/Register_Medium.otf");
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Light.ttf");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Medium.ttf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Register";
-    src: url("../fonts/Register_Medium_Italic.otf");
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Register";
-    src: url("../fonts/Register_Bold.otf");
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Bold.ttf");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Register";
-    src: url("../fonts/Register_Bold_Italic.otf");
+    src: url("../fonts/Register-Medium.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Register";
+    src: url("../fonts/Register-Medium-Italic.otf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Register";
+    src: url("../fonts/Register-Bold.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Register";
+    src: url("../fonts/Register-Bold-Italic.otf");
     font-weight: bold;
     font-style: italic;
 }
@@ -167,6 +188,7 @@ footer {
     position: absolute;
     width: calc(100vw - 230px);
     text-align: center;
+    padding: 10px 0;
 }
 
 /* Page home */
@@ -184,7 +206,7 @@ footer {
 .banner h2 {
     color: white;
     font-family: "Nunito";
-    font-weight: 200;
+    font-weight: lighter;
     font-size: 32px;
     letter-spacing: 10px;
     text-transform: uppercase;
@@ -218,7 +240,7 @@ footer {
     font-weight: normal;
     font-size: 22px;
     text-align: justify;
-    margin: 0 20px;
+    padding: 30px;
     color: white;
 }
 
@@ -300,6 +322,7 @@ aside.constructors a {
 }
 
 input[type=range] {
+    appearance: none;
     -webkit-appearance: none;
     width: 12%;
     background-color: #202020;
@@ -441,7 +464,7 @@ input[type=range]:focus::-ms-fill-upper {
     width: 200px;
 }
 
-.form-action input[type="submit"] {
+.form-action input[type=submit] {
     color: red;
     font-family: "Register";
 }
@@ -455,6 +478,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .favorites-list form {
     text-align: center;
+    margin-bottom: 14px;
 }
 
 .favorites-list label {
@@ -524,6 +548,10 @@ input[type=range]:focus::-ms-fill-upper {
     border: 1px solid white;
 }
 
+#starsCount {
+    margin: 0 4px;
+}
+
 .t-item.clic {
     background-color: #333333;
     transition: all .5s ease;
@@ -536,6 +564,8 @@ input[type=range]:focus::-ms-fill-upper {
 .t-item img {
     display: block;
     margin: auto;
+    width: 100%;
+    width: -webkit-fill-available;
 }
 
 .t-item img.money {
@@ -599,6 +629,18 @@ img.star {
     width: 20px;
 }
 
+@media only screen and (max-width: 1680px) {
+    .about {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .table {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     h2 {
         font-size: 32px;
@@ -636,10 +678,6 @@ img.star {
 
     .content {
         width: 100%;
-    }
-
-    .about {
-        flex-direction: column;
     }
 
     .about img {

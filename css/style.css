@@ -1,27 +1,48 @@
 @font-face {
-    font-family: "Register";
-    src: url("../fonts/Register_Medium.otf");
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Light.ttf");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Medium.ttf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Register";
-    src: url("../fonts/Register_Medium_Italic.otf");
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Register";
-    src: url("../fonts/Register_Bold.otf");
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Bold.ttf");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Register";
-    src: url("../fonts/Register_Bold_Italic.otf");
+    src: url("../fonts/Register-Medium.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Register";
+    src: url("../fonts/Register-Medium-Italic.otf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Register";
+    src: url("../fonts/Register-Bold.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Register";
+    src: url("../fonts/Register-Bold-Italic.otf");
     font-weight: bold;
     font-style: italic;
 }
@@ -185,7 +206,7 @@ footer {
 .banner h2 {
     color: white;
     font-family: "Nunito";
-    font-weight: 200;
+    font-weight: lighter;
     font-size: 32px;
     letter-spacing: 10px;
     text-transform: uppercase;
@@ -219,7 +240,7 @@ footer {
     font-weight: normal;
     font-size: 22px;
     text-align: justify;
-    margin: 0 20px;
+    padding: 30px;
     color: white;
 }
 
@@ -301,6 +322,7 @@ aside.constructors a {
 }
 
 input[type=range] {
+    appearance: none;
     -webkit-appearance: none;
     width: 12%;
     background-color: #202020;
@@ -442,7 +464,7 @@ input[type=range]:focus::-ms-fill-upper {
     width: 200px;
 }
 
-.form-action input[type="submit"] {
+.form-action input[type=submit] {
     color: red;
     font-family: "Register";
 }
