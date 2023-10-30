@@ -63,14 +63,8 @@ Please make sure to test your suggestions before commiting.
 **Quentin L.**
 
 -   Website: [quentium.fr](https://quentium.fr)
--   Github: [QuentiumYT](https://github.com/QuentiumYT)
 -   Twitter: [@QuentiumYT](https://twitter.com/QuentiumYT)
--   Youtube: [QuentiumYT](https://www.youtube.com/QuentiumYT)
--   Twitch: [QuentiumYT](https://www.twitch.tv/QuentiumYT)
--   Steam: [QuentiumYT](https://steamcommunity.com/id/QuentiumYT)
--   Reddit: [QuentiumYT](https://www.reddit.com/user/QuentiumYT)
--   PayPal: [QuentinYT](https://www.paypal.me/QuentiumYT/1)
--   Contact: [Mail](mailto:support@quentium.fr?subject=[Apps]%20Contact%20for%20...)
+-   Contact: [Mail](mailto:pro@quentium.fr?subject=[WikiWorld]%20Contact%20for%20...)
 
 Please ✰ this repository if this project helped you!
 
