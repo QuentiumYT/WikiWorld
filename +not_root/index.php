@@ -1,7 +1,7 @@
 <?php
 // Place here your absolute path for the router if it's not in root
 $ref = "https://mywebsite.com/+not_root";
-// Use /folder if local
+// Use /folder if relative
 $ref = "/+not_root";
 ?>
 <!DOCTYPE html>
@@ -10,11 +10,12 @@ $ref = "/+not_root";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Need For Speed - WikiWorld</title>
     <link rel="icon" type="image/png" href="<?= $ref ?>/img/logo.png">
+
+    <title>Need For Speed - WikiWorld</title>
+
     <link rel="stylesheet" href="<?= $ref ?>/css/style.css">
     <link rel="stylesheet" href="https://assets.quentium.fr/FA/pro.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
